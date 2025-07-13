@@ -33,10 +33,14 @@
 }
 </style>
 <script>
+window.addEventListener("load", (event) => {
+  //log.textContent += "load\n";
+  document.querySelector("#dbg").innerHTML = "Hello World!";
+});
 const el = document.querySelector(".page_contaier");
 e1.requestFullscreen();
 e1.background=#333333;
-document.querySelector("#dbg").innerHTML = "Hello World!";
+
 </script>
 <body>
   <h1>Test!</h1>
