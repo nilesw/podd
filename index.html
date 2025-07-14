@@ -69,14 +69,19 @@ log.textContent += 'All resources finished loading\n';
 log.textContent += "Init: " + global_init + "\n"
 global_init = 1;
 log.textContent += "Init: " + global_init + "\n"
+
+const res = document.querySelector(".results");
 };
 
+const card0 = document.querySelector("#card0");
+
+res.innerHTML = "...";
 
 //while (global_init == 0) {};
-
 //log.textContent += "...";
 
 </script>
+
 <body>
   <h1>Test!</h1>
   <div class="page_contaier">
