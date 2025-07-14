@@ -33,32 +33,32 @@
 }
 </style>
 <script>
-const log = document.querySelector(".event-log-contents");
-window.addEventListener("load", (event) => {
-  log.textContent += "load\n";
-});
+//const log = document.querySelector(".event-log-contents");
+//window.addEventListener("load", (event) => {
+//  log.textContent += "load\n";
+//});
 
-document.addEventListener("readystatechange", (event) => {
-  log.textContent += `readystate: ${document.readyState}\n`;
-});
+//document.addEventListener("readystatechange", (event) => {
+//  log.textContent += `readystate: ${document.readyState}\n`;
+//});
 
-document.addEventListener("DOMContentLoaded", (event) => {
-  log.textContent += `DOMContentLoaded\n`;
-});
+//document.addEventListener("DOMContentLoaded", (event) => {
+//  log.textContent += `DOMContentLoaded\n`;
+//});
 
 
-window.addEventListener("load", (event) => {
+//window.addEventListener("load", (event) => {
   //log.textContent += "load\n";
-  document.querySelector("#dbg").innerHTML = "Hello World!";
-});
-const el = document.querySelector(".page_contaier");
-e1.requestFullscreen();
-e1.background=#333333;
+  //document.querySelector("#dbg").innerHTML = "Hello World!";
+//});
+//const el = document.querySelector(".page_contaier");
+//e1.requestFullscreen();
+//e1.background=#333333;
 
-log.textContent += "...";
-setTimeout(() => {
-    window.location.reload(true);
-  }, 200);
+//log.textContent += "...";
+//setTimeout(() => {
+//    window.location.reload(true);
+//  }, 200);
 
 
 window.onload = function() {
